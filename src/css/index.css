@@ -1,0 +1,101 @@
+/*
+ Name: Room homepage
+ Description: A Frontendmentor.io coding challenge.
+ Author: Federico Borzani
+ Author URL:  https://github.com/eserengo/
+*/
+
+@import "variables.css";
+
+* {
+  font-family: "League Spartan";
+  font-size: 12px;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  max-width: 100%;
+  padding: 0%;
+  margin: 0%;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.primary.title,
+.secondary.title {
+  font-weight: 700;
+  color: var(--Black);
+}
+
+.para {
+  color: var(--DarkGray);
+}
+
+.list-group-item {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.list-group-item{
+  font-weight: 600;
+  font-size: 120%;
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.angle {
+  background-color: var(--Black);
+  width: 48px;
+  height: 48px;
+  padding: 16px 20px;
+}
+
+.angle:hover {
+  background-color: var(--VeryDarkGray);
+  cursor: pointer;
+}
+
+.shop {
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: var(--Black);
+}
+
+.shop:hover,
+.arrow:hover {
+  color: var(--DarkGray);
+  cursor: pointer;
+}
+
+#one,
+#two,
+#three,
+.dark,
+.light {
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100% 100%;
+}
+
+.dark {
+  background-image: url("../images/image-about-dark.jpg");
+}
+
+.light {
+  background-image: url("../images/image-about-light.jpg");
+}

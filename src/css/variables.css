@@ -1,0 +1,7 @@
+:root {
+  --DarkGray: hsl(0, 0%, 63%);
+  --Black: hsl(0, 0%, 1%);
+  --White: hsl(0, 0%, 99%);
+  --VeryDarkGray: hsl(0, 0%, 27%);
+  --Black-WithOpacity: rgba(3, 3, 3, 0.5);
+}

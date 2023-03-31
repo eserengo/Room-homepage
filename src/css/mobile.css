@@ -1,0 +1,81 @@
+@import "variables.css";
+
+#one {
+  background-image: url("../images/mobile-image-hero-1.jpg");
+}
+
+#two {
+  background-image: url("../images/mobile-image-hero-2.jpg");
+}
+
+#three {
+  background-image: url("../images/mobile-image-hero-3.jpg");
+}
+
+.primary.title {
+  font-size: 300%;
+  letter-spacing: 0px;
+}
+
+.secondary.title{
+  font-size: 125%;
+  letter-spacing: 2px;
+}
+
+.mod {
+  height: 96px;
+}
+
+.list-group-item {
+  color: var(--Black);
+}
+
+.list-group-item:hover {
+  text-decoration: var(--Black) underline solid 2px;
+  text-underline-offset: 8px;
+}
+
+.mob-abs {
+  top: 10%;
+  left: 5%;
+  gap: 120px;
+}
+
+.mod {
+  background-color: var(--White);
+}
+
+.mod-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Black-WithOpacity);
+}
+
+.slider {
+  min-width: 375px;
+  min-height: 360px;
+}
+
+.dark,
+.light {
+  min-width: 375px;
+  min-height: 266px;
+}
+
+.description {
+  padding: 15% 5%;
+}
+
+.about-wrapper {
+  padding: 10% 5% 5%;
+}
+
+.right {
+  top: 312px;
+  right: 0px;
+}
+
+.left {
+  top: 312px;
+  right: 48px;
+}

@@ -1,0 +1,60 @@
+@import "variables.css";
+
+#one {
+  background-image: url("../images/desktop-image-hero-1.jpg");
+}
+
+#two {
+  background-image: url("../images/desktop-image-hero-2.jpg");
+}
+
+#three {
+  background-image: url("../images/desktop-image-hero-3.jpg");
+}
+
+.primary.title {
+  font-size: 200%;
+  letter-spacing: 0px;
+}
+
+.secondary.title{
+  font-size: 125%;
+  letter-spacing: 2px;
+}
+
+.list-group-item {
+  color: var(--White);
+}
+
+.list-group-item:hover {
+  text-decoration: var(--White) underline solid 2px;
+  text-underline-offset: 8px;
+}
+
+.desk-abs {
+  top: 10%;
+  left: 5%;
+  gap: 2rem;
+}
+
+.navbar-brand {
+  padding: 6px 12px;
+}
+
+.description {
+  padding: 10% 5%;
+}
+
+.about-wrapper {
+  padding: 5%;
+}
+
+.right {
+  bottom: 0px;
+  left: calc(58.33333333% + 48px);
+}
+
+.left {
+  bottom: 0px;
+  left: 58.33333333%;
+}
